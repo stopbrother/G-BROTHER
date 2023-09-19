@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정지형</title>
+
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/certificate.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header_wrap">
+            <div class="header">
+                <div class="header_logo">StopBrother</div>                
+            </div>
+        </div>
+        <div class="contents">
+            <div class="content_header">
+                <div class="profile_wrap">
+                    <div class="profile_container">
+                        <div class="profile_inner">
+                            <div class="profile_img_wrap">
+                                <div class="profile_img_container">
+                                    <div class="profile_img_inner">
+                                        <img src="#" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile_desc_wrap">
+                                <div class="profile_name">정지형</div>
+                                <div class="profile_email">stopbro0323@naver.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_menu_wrap">
+                    <div class="content_menu">
+                        <div class="content_menu_items">
+                            <span class="content_menu_item">
+                                <a class="content_menu_link" href="index.html">인적사항</a>
+                            </span>
+                            <span class="content_menu_item">
+                                <a class="content_menu_link" href="intro.html">소개</a>
+                            </span>
+                            <span class="content_menu_item">
+                                <a class="content_menu_link" href="project.html">프로젝트</a>
+                            </span>
+                            <span class="content_menu_item active">
+                                <a class="content_menu_link active" href="certificate.html">자격증</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile_content_wrap">
+                <div class="profile_content">
+                    <div class="certificate_list">                                                
+                        <div class="certificate_item">
+                            <div class="company_logo_wrap">
+                                <div class="company_logo_container">
+                                    <div class="company_logo_inner">
+                                        <img class="company_logo" src="img/kpc.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_info_wrap">
+                                <div class="certificate_info">
+                                    <div class="certificate_name">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#ITQModal">정보기술자격(ITQ(한셀))C등급</button>
+                                    </div>
+                                    <div class="certificate_desc">2013.12.05</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="certificate_item">
+                            <div class="company_logo_wrap">
+                                <div class="company_logo_container">
+                                    <div class="company_logo_inner">
+                                        <img class="company_logo" src="img/kca.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_info_wrap">
+                                <div class="certificate_info">
+                                    <div class="certificate_name">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#LineModal">통신선로기능사</button>
+                                    </div>
+                                    <div class="certificate_desc">2014.07.04</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="certificate_item">
+                            <div class="company_logo_wrap">
+                                <div class="company_logo_container">
+                                    <div class="company_logo_inner">
+                                        <img class="company_logo" src="img/kpc.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_info_wrap">
+                                <div class="certificate_info">
+                                    <div class="certificate_name">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#GTQModal">GTQ2급(그래픽기술자격)</button>
+                                    </div>
+                                    <div class="certificate_desc">2015.06.12</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="certificate_item">
+                            <div class="company_logo_wrap">
+                                <div class="company_logo_container">
+                                    <div class="company_logo_inner">
+                                        <img class="company_logo" src="img/hrdk.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_info_wrap">
+                                <div class="certificate_info">
+                                    <div class="certificate_name">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#InfoModal">정보처리산업기사</button>
+                                    </div>
+                                    <div class="certificate_desc">2020.06.26</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="certificate_item">
+                            <div class="company_logo_wrap">
+                                <div class="company_logo_container">
+                                    <div class="company_logo_inner">
+                                        <img class="company_logo" src="img/korcham.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_info_wrap">
+                                <div class="certificate_info">
+                                    <div class="certificate_name">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#ComModal">컴퓨터활용능력1급</button>
+                                    </div>
+                                    <div class="certificate_desc">2021.04.30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div id="ITQModal" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">자격증</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal_img">
+                            <img src="img/ITQ.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="LineModal" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">자격증</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal_img">
+                            <img src="img/Line.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="GTQModal" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">자격증</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal_img">
+                            <img src="img/GTQ.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="InfoModal" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">자격증</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal_img">
+                            <img src="img/Info.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ComModal" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">자격증</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal_img">
+                            <img src="img/Com.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        var itqModal = document.getElementById('ITQModal')
+        itqModal.addEventListener('show.bs.modal', function (event) {
+            itqModal.focus()
+        });
+        var lineModal = document.getElementById('LineModal')
+        lineModal.addEventListener('show.bs.modal', function (event) {
+            lineModal.focus()
+        });
+        var gtqModal = document.getElementById('GTQModal')
+        gtqModal.addEventListener('show.bs.modal', function (event) {
+            gtqModal.focus()
+        });
+        var infoModal = document.getElementById('InfoModal')
+        infoModal.addEventListener('show.bs.modal', function (event) {
+            infoModal.focus()
+        });
+        var comModal = document.getElementById('ComModal')
+        comModal.addEventListener('show.bs.modal', function (event) {
+            comModal.focus()
+        });
+    </script>
+</body>
+</html>
